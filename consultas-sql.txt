@@ -1,0 +1,7 @@
+recetas por medicos
+(1 es el id del medico)
+$recetas= Receta::where('id_medico', '=', 1)->get();
+
+$recetas= Receta::where('id_medico', '=', $id)->get();
+
+$recetas= Receta::where('id_est', '=', $id)->get();
